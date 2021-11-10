@@ -1,0 +1,16 @@
+<div class="table-scroll">
+    <form [formGroup]="formGroup">
+<table class="table table-no-border">
+    <tbody>
+      <tr>
+        <td style="width: 200px;"><input type="number" class="form-control" style="font-size: 30px;" formControlName="num" (keyup)="onChangeInputNumber()"></td>
+        <td style="min-width: 100px;"><select (change)="onChangeSelect()" class="form-select" aria-label="Default select example" style="font-size: 30px;" formControlName="selectValue">
+            <option value="isPrime"  selected>isPrime</option>
+            <option value="isFibonacci">isFibonacci</option>
+          </select></td>
+        <td style="width: 300px;">{{output}}</td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+</div>

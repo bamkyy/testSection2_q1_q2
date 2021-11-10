@@ -1,1 +1,68 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import "~bootstrap/dist/css/bootstrap.css";
+@font-face {
+    font-family: 'thai-sarabun-New';
+    src: url("src\assets\font\THSarabunNew.ttf") format("truetype");
+}
+body {
+    font-family: 'thai-sarabun-New';
+    background-color: #E4E4E4;
+    font-size: 25px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+button{
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.btn3 {
+    display: inline-block;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    padding: 14px 28px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    
+
+}
+
+
+
+.container-top{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container-btn{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+.table-border{
+    border: 1px solid rgb(201, 200, 200);
+}
+  .text-center{
+    text-align: center;
+  }
+.visible {
+    background-color: #ffffff;;  
+    width: 100%;  
+    height: 120px;  
+    border: 1px solid #cccaca;;   
+    overflow: auto;  
+}
+
+label span{
+    display:inline-block;
+    margin-left: 10px;
+  }
