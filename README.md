@@ -1,8 +1,6 @@
-# read me
-quesntion 1 and question 2 is in the same file
 
 # Pretest
-
+question 1 and question 2 is in the same file
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
 ## Development server
