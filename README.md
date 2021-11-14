@@ -1,4 +1,4 @@
-#!!
+# read me
 quesntion 1 and question 2 is in the same file
 
 # Pretest
